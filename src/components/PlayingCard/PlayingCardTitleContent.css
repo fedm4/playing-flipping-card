@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400&display=swap');
+
+.playing-card-title-content{
+    background-color: #333;
+    box-sizing: border-box;
+    color: #F3F3F3; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    height: 110px;
+    padding: 30px;
+    position: relative;
+}
+
+.playing-card-title-content-image-container {
+    align-items: center;
+    background-color: #F3F3F3;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #666;
+    cursor: pointer;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    left: 30px;
+    position: absolute;
+    top: 80px;
+    width: 50px;
+}
+.playing-card-title-content-image{
+    transition: width 0.15s linear;
+    transform: rotate(0deg);
+    width: 25px;
+}
+.playing-card-title-content-image-container:hover .playing-card-title-content-image {
+    animation-duration: 1.2s;
+    animation-delay: 0.15s;
+    animation-name: rotate360;
+    animation-iteration-count: 1;
+    animation-play-state: running;
+    width: 30px;
+}
+@keyframes rotate360 {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.playing-card-title-content-value {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.playing-card-title-content-title {
+    font-size: 18px;
+    text-transform: uppercase;
+}

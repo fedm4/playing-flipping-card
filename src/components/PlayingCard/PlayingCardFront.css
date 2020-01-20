@@ -1,0 +1,22 @@
+.playing-card-content {
+    align-items: center;
+    display: flex;
+    height: 260px;
+    justify-content: center;
+}
+.playing-card-content img {
+    width: 150px;
+}
+
+.playing-card-footer{
+    transform: rotate(180deg);
+}
+
+.playing-card-front {
+    backface-visibility: hidden;
+    border-radius:20px;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+}

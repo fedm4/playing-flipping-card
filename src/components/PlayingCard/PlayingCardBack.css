@@ -1,0 +1,19 @@
+.playing-card-back{
+    backface-visibility: hidden;
+    background-color: white;
+    height:100%;
+    position:absolute;
+    transform: rotateY(180deg);
+    width: 100%;
+}
+.playing-card-back-container {
+    cursor: pointer;    
+    position: relative;
+}
+.playing-card-back-background {
+    width: 380px;
+    height: 505px;
+    position: absolute;
+    top: -10px;
+    left: -10px;    
+}

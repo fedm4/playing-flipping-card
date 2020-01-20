@@ -1,0 +1,25 @@
+.playing-card {
+        /*Temporal*/
+        margin: 30px auto;
+        align-items: center;
+        display: flex;
+        height: 486px;
+        justify-content: center;;
+        overflow: hidden;
+        perspective: 1000px;
+        width: 366px;
+}
+.playing-card-container {
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow: 0 0 3px #666;
+    height: calc(100% - 6px);
+    position: relative;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    width: calc(100% - 6px);
+}
+
+.playing-card-container.flip-card {
+    transform: rotateY(180deg);
+  }
