@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/playing-flipping-card/static/css/main.3e697cd8.chunk.css",
+    "main.js": "/playing-flipping-card/static/js/main.950ae792.chunk.js",
+    "main.js.map": "/playing-flipping-card/static/js/main.950ae792.chunk.js.map",
+    "runtime-main.js": "/playing-flipping-card/static/js/runtime-main.ad23248d.js",
+    "runtime-main.js.map": "/playing-flipping-card/static/js/runtime-main.ad23248d.js.map",
+    "static/js/2.6593997e.chunk.js": "/playing-flipping-card/static/js/2.6593997e.chunk.js",
+    "static/js/2.6593997e.chunk.js.map": "/playing-flipping-card/static/js/2.6593997e.chunk.js.map",
+    "index.html": "/playing-flipping-card/index.html",
+    "precache-manifest.fed16bb235615ca7ce2520089fae1033.js": "/playing-flipping-card/precache-manifest.fed16bb235615ca7ce2520089fae1033.js",
+    "service-worker.js": "/playing-flipping-card/service-worker.js",
+    "static/css/main.3e697cd8.chunk.css.map": "/playing-flipping-card/static/css/main.3e697cd8.chunk.css.map",
+    "static/js/2.6593997e.chunk.js.LICENSE": "/playing-flipping-card/static/js/2.6593997e.chunk.js.LICENSE",
+    "static/media/ace-of-spades.svg": "/playing-flipping-card/static/media/ace-of-spades.07be9e51.svg",
+    "static/media/crown.svg": "/playing-flipping-card/static/media/crown.80714de7.svg",
+    "static/media/playingCardBackBackground.png": "/playing-flipping-card/static/media/playingCardBackBackground.25b4a4d6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ad23248d.js",
+    "static/js/2.6593997e.chunk.js",
+    "static/css/main.3e697cd8.chunk.css",
+    "static/js/main.950ae792.chunk.js"
+  ]
+}
